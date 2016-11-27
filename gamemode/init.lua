@@ -11,7 +11,6 @@ GM.Sandbox = BaseClass
 
 
 AddCSLuaFile("libraries/sh_cami.lua")
-AddCSLuaFile("libraries/simplerr.lua")
 AddCSLuaFile("libraries/interfaceloader.lua")
 AddCSLuaFile("libraries/modificationloader.lua")
 AddCSLuaFile("libraries/disjointset.lua")
@@ -37,7 +36,6 @@ include("config/licenseweapons.lua")
 include("libraries/fn.lua")
 include("libraries/tablecheck.lua")
 include("libraries/sh_cami.lua")
-include("libraries/simplerr.lua")
 include("libraries/modificationloader.lua")
 include("libraries/mysqlite/mysqlite.lua")
 include("libraries/disjointset.lua")
